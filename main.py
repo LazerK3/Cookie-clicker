@@ -75,7 +75,7 @@ def clicktimes(x,y,times, hwnd1):
 hwnd = handle.find_window(window_title)
 
 #display test.png 
-image = cv2.imread("test.png")
+image = cv2.imread("images/upgradeitem.png")
 cv2.imshow("test",image)
 cv2.waitKey(1000)
 
